@@ -3,7 +3,7 @@
 	padding: 0;
 }
 #topo{
-	height: 70px;
+	height: 166px;
 	background: #5e2129;
 }
 #menu{
@@ -16,10 +16,10 @@
 }
 #menu ul li a{
 	text-decoration: underline;
-	color: navy;
+	color: rgb(186, 186, 211);
 }
 #menu ul li:hover{
-	background-color: rgba(0,80,0,0.5);
+	background-color: rgba(155, 141, 183, 0.5);
 }
 #conteudo{
 	background-color: #5e2128;
@@ -79,8 +79,16 @@ img{
 }
 .slogan-image {
     float: left;
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     margin: 15px;
     border-radius: 50%;
 }
+
+li {
+	position: relative; 
+	bottom: 150px; 
+	right: -1000px; 
+	font-size:25px;
+  }
+  
